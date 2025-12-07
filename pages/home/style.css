@@ -23,7 +23,7 @@
 }
 
 
-main{
+.main{
   /* background-color: red; */
   margin: 0 110px;
   height: 300vh;
@@ -84,4 +84,27 @@ nav{
 .socialIcons a{
   font-size: 15px;
   color: white;
+}
+
+main{
+  background-color: rgba(134, 84, 84, 0.531);
+  height: 150vh;
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+}
+
+.shape{
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+      45deg,
+      #e3e5e8,
+      #dcdcdc 2px,
+      #f4f4f4 2px,
+      #f4f4f4 5px
+  );
+}
+
+.content{
+  background-color: burlywood;
 }
