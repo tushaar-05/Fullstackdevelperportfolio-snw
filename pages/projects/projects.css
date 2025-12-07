@@ -20,6 +20,13 @@
   --navlink-size: 14px;
   --navbar-color: #6c7280;
   --navbar-active-color: #0e172a;
+  --background1: linear-gradient(
+  to right,
+  #ffffff 0%,
+  #EFEDF9 50%,
+  #ffffff 100%
+);
+
 }
 
 main{
@@ -124,23 +131,25 @@ nav{
   border: 1px solid var(--border-color);
 }
 
-.main-img{
-  height: 100vh;
+.mainimage{
   display: flex;
-  border: 1px solid var(--border-color);
   justify-content: center;
   align-items: center;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
 
-
+.main-img{
+  width: 80%;
+  height: 100vh;
 }
 
 .main-img img{
   height: 100%;
-  width: auto;
+  width: 100%;
   border-radius: 20px;
   border: 1px ;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-
 }
 
 .third-space{
@@ -148,32 +157,75 @@ nav{
   border: 1px solid var(--border-color);
 }
 
-.conference-txt{
-  font-size: 10px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+.Conference-txt{
+  height: auto;
   font-family: var(--font-family);
   border: 1px solid var(--border-color);
+  padding: 0px 118px;
+  margin-bottom: 65px;
 }
 
 .Commit h1{
   font-size: 22px;
   font-family: var(--font-family);
   font-weight: 400;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  background: var(--background1);
+}
+
+.paragraph{
+  font-family: var(--font-family);
+  color: var(--navbar-color);
+  padding-bottom: 4px;
+  background: var(--background1);
 }
 
 .paragraph1{
   font-family: var(--font-family);
   color: var(--navbar-color);
-  margin-bottom: 4px;
+  padding-bottom: 10px;
+  background: var(--background1);
 }
 
 .paragraph2{
   font-family: var(--font-family);
-  color: var(--navbar-color);
-  margin-bottom: 10px;
+  color: #4F47E5;
+  padding-bottom: 10px;
+  background: var(--background1);
+}
+
+.paragraph2 a{
+    text-decoration: none;
+    font-family: var(--font-family);
 }
 
 
+.mainimage2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.main-img2{
+  width: 80%;
+  height: 100vh;
+}
+
+.main-img2 img{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px ;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 65px;
+}
+
+.Conference-txt1{
+  height: auto;
+  font-family: var(--font-family);
+  border: 1px solid var(--border-color);
+  padding: 0px 118px;
+  
+}
