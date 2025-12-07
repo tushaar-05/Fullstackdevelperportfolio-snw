@@ -120,3 +120,37 @@ main{
   border-left: 1.5px solid var(--border-color);
   border-right: 1.5px solid var(--border-color);
 }
+
+
+
+
+
+
+.empty-space{
+  height: 65px;
+  border: 0.5px solid var(--border-color);
+}
+
+.first-text{
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--border-color);
+}
+
+.text1{
+  padding-top: 4px;
+  color: #0E172A;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.text2{
+  padding-top: 4px;
+  color: #0E172A;
+  font-weight: 400;
+  font-size: 30px;
+}
