@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-family);
 }
 
 body{
@@ -167,6 +168,11 @@ main{
   padding-left: 3px;
 }
 
+.img1{
+  border: 1px solid var(--border-color);
+  border-radius: 25px;
+}
+
 .img-1{
   height: 250px;
   width: 400px;
@@ -175,7 +181,6 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid var(--border-color);
   padding: 10px 0px;
 
 
@@ -187,6 +192,11 @@ main{
   border-radius: 25px;
 }
 
+.img2{
+  border: 1px solid var(--border-color);
+  border-radius: 25px;
+}
+
 .img-2{
   height: 250px;
   width: 400px;
@@ -195,7 +205,6 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid var(--border-color);
   padding: 10px 0px;
 
 }
@@ -214,8 +223,12 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid var(--border-color);
   padding: 10px 0px;
+}
+
+.img3{
+  border: 1px solid var(--border-color);
+  border-radius: 25px;
 }
 
 .img-3 img{
@@ -255,4 +268,76 @@ main{
   padding-left: 20px;
   padding-bottom: 25px;
 }
+
+.categories{
+    /* border-bottom: 1px dashed var(--border-color); */
+    padding-bottom: 25px;
+}
+
+.h3-cate{
+  padding-top: 65px;
+  font-family: var(--font-family);
+  padding-left: 20px;
+}
+.h3-cate h3{
+  font-weight: 400;
+}
+
+.anchor-tags{
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.anchor-tags a{
+  text-decoration: none;
+  color: #64748B;
+  font-family: var(--font-family);
+  font-size: 15px;
+}
+
+.anchor-tags a:hover{
+  color: #0E172A;
+}
+
+.grid-bolte{
+  /* padding-top: 10px; */
+  display: grid;
+  grid-template-columns: 230px 150px 1fr;
+  grid-template-rows: 10;
+  gap: 2px;
+}
+
+.date{
+  /* background-color: #0E172A; */
+  height: 170px;
+  border: 1.5px dashed var(--border-color);
+}
+
+.date p,h3{
+  font-weight: 100;
+  font-size: 20px;
+}
+
+
+.col2{
+  /* background-color: #0E172A; */
+  height: 170px;
+  border: 1.5px dashed var(--border-color);
+  
+}
+
+.review{
+  /* background-color: #0E172A; */
+  height: 170px;
+  border: 1.5px dashed var(--border-color);
+}
+
+
+
+
+
+
+
 
