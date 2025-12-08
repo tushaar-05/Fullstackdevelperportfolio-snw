@@ -206,6 +206,7 @@ main{
 
 .aboutHeading h5{
   font-size: var(--heading-font-size);
+  font-weight: 500;
 }
 
 .aboutText{
@@ -264,6 +265,7 @@ main{
 }
 
 .bentoLeftBottom{
+  overflow: hidden;
   height: 60%;
   border-radius: var(--border-radius);
   border: 1px solid var(--border-color-dark);
@@ -415,6 +417,7 @@ main{
   text-align: center;
   color: var(--heading-color);
   font-size: var(--heading-font-size);
+  font-weight: 500;
 }
 
 .blogText{
@@ -452,8 +455,122 @@ main{
   height: auto;
 }
 
+.blogCardImg{
+  height: 250px;
+}
+
 .blogCard img{
   border-radius: 15px;
   width: 100%;
-  height: auto;
+  height: 100%;
+}
+
+.blogCard h4{
+  padding: 25px 10px 17px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #222224;
+}
+
+.blogCard h3{
+  padding: 0px 60px 25px 20px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #2222249f;
+}
+
+
+.projects{
+  margin-top: 100px;
+}
+
+.projectHeading{
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.projectHeading h3{
+  text-align: center;
+  color: var(--heading-color);
+  font-size: var(--heading-font-size);
+  font-weight: 500;
+}
+
+.projectText{
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+}
+
+.projectText h4{
+  text-align: center;
+  font-size: var(--text-font-size);
+  font-weight: 500;
+  width: 550px;
+  line-height: 2.3rem;
+  margin: 5px 0;
+  color: var(--navbar-active-color);
+}
+
+.projectCards {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: 100px;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 20px 0;
+}
+
+.projectCard {
+  width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.projectCard:hover img{
+  height: 110%;
+  transition: all ease-in-out 0.3s;
+}
+
+.project-image {
+  height: 270px;
+  width: 100%;
+}
+
+.projectCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 1;
+  transition: all ease-in-out 0.3s;
+}
+
+.project-content {
+  position: absolute;
+  width: 190px;
+  left: 30px;
+  bottom: 40px;
+  z-index: 3;;
+}
+
+.project-content h4,
+.project-content h5 {
+  margin: 0;
+}
+
+.project-content h4{
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.project-content h5{
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  font-weight: 500;
 }
