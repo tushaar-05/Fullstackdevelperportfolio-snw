@@ -5,10 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* 
-body{
-  background-color: #f7f7f8;
-} */
 
 body{
   background-color: #f7f7f8;
@@ -75,19 +71,11 @@ nav{
   font-family: var(--font-family);
   font-size: var(--navlink-size);
   font-weight: 500;
-<<<<<<< HEAD
-  transition: 0.3s ease-in-out;
-=======
   transition: 0.3s;
->>>>>>> main
 }
 
 .navLinks ul li a:hover{
   color: var(--navbar-active-color);
-<<<<<<< HEAD
-  transition: 0.3s ease-in-out;
-=======
->>>>>>> main
 }
 
 .navLinks ul li a.activeLink{
@@ -106,13 +94,6 @@ nav{
 .socialIcons a{
   font-size: 15px;
   color: #979da8;
-<<<<<<< HEAD
-}
-
-main{
-  background-color: rgba(134, 84, 84, 0.0);
-  height: 150vh;
-=======
 }
 
 .content{
@@ -121,7 +102,6 @@ main{
 
 main{
   min-height: 100vh;
->>>>>>> main
   display: grid;
   grid-template-columns: 30px 1fr 30px;
 }
@@ -140,10 +120,6 @@ main{
   border-right: 1.5px solid var(--border-color);
 }
 
-<<<<<<< HEAD
-.content{
-  background-color: transparent;
-=======
 .mainImage{
   padding: 30px;
   display: flex;
@@ -836,5 +812,4 @@ footer h4{
   );
   border-left: 1.5px solid var(--border-color);
   border-right: 1.5px solid var(--border-color);
->>>>>>> main
 }
