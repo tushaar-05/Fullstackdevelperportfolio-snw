@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* 
+body{
+  background-color: #f7f7f8;
+} */
 
 :root {
   /* ___Colours__ */
@@ -41,6 +45,7 @@ nav{
 
 .logo{
   height: 35%;
+  width: 6.5em;
 }
 
 .logo img{
@@ -66,7 +71,12 @@ nav{
   font-family: var(--font-family);
   font-size: var(--navlink-size);
   font-weight: 500;
-  
+  transition: 0.3s ease-in-out;
+}
+
+.navLinks ul li a:hover{
+  color: var(--navbar-active-color);
+  transition: 0.3s ease-in-out;
 }
 
 .navLinks ul li a.activeLink{
@@ -79,15 +89,16 @@ nav{
   background-color: #3c3c3f;
   padding: 10px;
   border-radius: 30px;
+  width: 6.5em;
 }
 
 .socialIcons a{
   font-size: 15px;
-  color: white;
+  color: #979da8;
 }
 
 main{
-  background-color: rgba(134, 84, 84, 0.531);
+  background-color: rgba(134, 84, 84, 0.0);
   height: 150vh;
   display: grid;
   grid-template-columns: 40px 1fr 40px;
@@ -106,5 +117,5 @@ main{
 }
 
 .content{
-  background-color: burlywood;
+  background-color: transparent;
 }
