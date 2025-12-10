@@ -1,3 +1,5 @@
+
+
 .content > section {
 	padding-left: 32px;
 	padding-right: 32px;
@@ -328,6 +330,7 @@
 
 body{
 	background-color: #f7f7f8;
+	font-family: 'Geist', sans-serif;
 }
 
 :root {
