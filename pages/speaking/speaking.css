@@ -193,7 +193,7 @@
 	background: #4f46e5;
 }
 
-/* Collage section: overlap, scale, and shadow for screenshot look */
+
 .collage {
 	display: flex;
 	justify-content: center;
@@ -207,6 +207,7 @@
 	transform: scale(1.05);
     z-index: 3; 
     box-shadow: 0 8px 32px rgba(91,33,182,0.13);
+    transform: rotate(-10deg) scale(1.5);
 }
 .frame {
 	position: relative;
@@ -232,19 +233,16 @@
 }
 .frame.f-left {
 	left: 0;
-	transform: rotate(-10deg) scale(0.97);
-	z-index: 2;
+	transform: rotate(-10deg) scale(1.5);
 	margin-right: -60px;
 }
 .frame.f-center {
 	left: 0;
-	transform: rotate(0deg) scale(1.05);
-	z-index: 3;
+	transform: rotate(0deg) scale(1.5);
 }
 .frame.f-right {
 	left: 0;
-	transform: rotate(8deg) scale(0.97);
-	z-index: 2;
+	transform: rotate(8deg) scale(1.5);
 	margin-left: -60px;
 }
 
