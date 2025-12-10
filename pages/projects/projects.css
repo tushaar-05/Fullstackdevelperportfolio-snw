@@ -20,9 +20,39 @@
   --navlink-size: 14px;
   --navbar-color: #6c7280;
   --navbar-active-color: #0e172a;
+<<<<<<< HEAD
 }
 
 
+=======
+  --background1: linear-gradient(
+  to right,
+  #ffffff 0%,
+  #EFEDF9 50%,
+  #ffffff 100%
+);
+
+}
+
+main{
+  height: 150vh;
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+}
+
+.shape{
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+      45deg,
+      #e3e5e8,
+      #dcdcdc 2px,
+      #f4f4f4 2px,
+      #f4f4f4 5px
+  );
+}
+
+>>>>>>> main
 .main{
   /* background-color: red; */
   margin: 0 110px;
@@ -107,6 +137,7 @@ nav{
   border: 1px solid var(--border-color);
 }
 
+<<<<<<< HEAD
 .main-img{
   height: 100vh;
   display: flex;
@@ -115,15 +146,35 @@ nav{
   align-items: center;
 
 
+=======
+.mainimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.main-img{
+  width: 80%;
+  height: 100vh;
+>>>>>>> main
 }
 
 .main-img img{
   height: 100%;
+<<<<<<< HEAD
   width: auto;
   border-radius: 20px;
   border: 1px ;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
+=======
+  width: 100%;
+  border-radius: 20px;
+  border: 1px ;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+>>>>>>> main
 }
 
 .third-space{
@@ -131,6 +182,7 @@ nav{
   border: 1px solid var(--border-color);
 }
 
+<<<<<<< HEAD
 .conference-txt{
   font-size: 10px;
   text-align: center;
@@ -144,4 +196,77 @@ nav{
   font-size: 10px;
   font-family: var(--font-family);
   border: 1px solid var(--border-color);
+=======
+.Conference-txt{
+  height: auto;
+  font-family: var(--font-family);
+  border: 1px solid var(--border-color);
+  padding: 0px 118px;
+  margin-bottom: 65px;
+}
+
+.Commit h1{
+  font-size: 22px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  padding-bottom: 10px;
+  background: var(--background1);
+}
+
+.paragraph{
+  font-family: var(--font-family);
+  color: var(--navbar-color);
+  padding-bottom: 4px;
+  background: var(--background1);
+}
+
+.paragraph1{
+  font-family: var(--font-family);
+  color: var(--navbar-color);
+  padding-bottom: 10px;
+  background: var(--background1);
+}
+
+.paragraph2{
+  font-family: var(--font-family);
+  color: #4F47E5;
+  padding-bottom: 10px;
+  background: var(--background1);
+}
+
+.paragraph2 a{
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+
+.mainimage2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.main-img2{
+  width: 80%;
+  height: 100vh;
+}
+
+.main-img2 img{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px ;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 65px;
+}
+
+.Conference-txt1{
+  height: auto;
+  font-family: var(--font-family);
+  border: 1px solid var(--border-color);
+  padding: 0px 118px;
+  
+>>>>>>> main
 }
