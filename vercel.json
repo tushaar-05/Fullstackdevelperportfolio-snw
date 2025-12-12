@@ -1,10 +1,11 @@
 {
+  "public": "pages",
   "rewrites": [
-    { "source": "/", "destination": "/pages/home/index.html" },
-    { "source": "/about", "destination": "/pages/about/about.html" },
-    { "source": "/blog", "destination": "/pages/blog/blog.html" },
-    { "source": "/projects", "destination": "/pages/projects/projects.html" },
-    { "source": "/speaking", "destination": "/pages/speaking/speaking.html" },
-    { "source": "/toolbox", "destination": "/pages/toolbox/toolbox.html" }
+    { "source": "/", "destination": "/home/index.html" },
+    { "source": "/about", "destination": "/about/about.html" },
+    { "source": "/blog", "destination": "/blog/blog.html" },
+    { "source": "/projects", "destination": "/projects/projects.html" },
+    { "source": "/speaking", "destination": "/speaking/speaking.html" },
+    { "source": "/toolbox", "destination": "/toolbox/toolbox.html" }
   ]
 }
