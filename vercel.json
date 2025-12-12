@@ -4,7 +4,6 @@
     { "source": "/about", "destination": "/about/about.html" },
     { "source": "/blog", "destination": "/blog/blog.html" },
     { "source": "/projects", "destination": "/projects/projects.html" },
-    { "source": "/speaker", "destination": "/speaking/speaker.html" },
-    { "source": "/toolbox", "destination": "/toolbox/toolbox.html" }
+    { "source": "/speaker", "destination": "/speaking/speaker.html" }
   ]
 }
