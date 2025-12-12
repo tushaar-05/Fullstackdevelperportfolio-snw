@@ -6,20 +6,5 @@
     { "source": "/projects", "destination": "/pages/projects/projects.html" },
     { "source": "/speaking", "destination": "/pages/speaking/speaking.html" },
     { "source": "/toolbox", "destination": "/pages/toolbox/toolbox.html" }
-  ],
-  "output": "static",
-  "public": "public",
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "headers": [
-    {
-      "source": "/(.*).(css|js|jpg|jpeg|png|gif|ico|svg|woff|woff2|ttf|eot)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    }
   ]
 }
