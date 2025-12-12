@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f7f7f8;
+}
+
+:root {
+  --primary-color: black;
+  --secondary-color: #0a0a0ab3;
+  --heading-color: #4f47e5;
+  --border-color: #e7e8eb;
+  --border-color-dark: #d6dade;
+  --border-radius: 15px;
+  --font-family: 'Geist', sans-serif;
+  --heading-font-size: 1rem;
+  --text-font-size: 35px;
+  --navlink-size: 14px;
+  --navbar-color: #6c7280;
+  --navbar-active-color: #0e172a;
+  --newsletter-bg-color: #3c3c3f;
+  --newsletter-font-color: #f9fafc;
+  --newsletter-sec-font-color: #b9bcc2;
+}
+
+
+.main{
+  margin: 0 110px;
+}
+
+nav{
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border: 1.5px solid var(--border-color);
+}
+
+.logo{
+  height: 35%;
+  width: 6.5em;
+}
+
+.logo img{
+  height: 100%;
+  width: auto;
+}
+
+.navLinks ul{
+  display: flex;
+  gap: 25px;
+  border: 1px solid var(--border-color);
+  padding: 10px 20px;
+  border-radius: 35px;
+}
+
+.navLinks ul li{
+  list-style: none;
+}
+
+.navLinks ul li a{
+  text-decoration: none;
+  color: var(--navbar-color);
+  font-family: var(--font-family);
+  font-size: var(--navlink-size);
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.navLinks ul li a:hover{
+  color: var(--navbar-active-color);
+  transition: 0.3s ease-in-out;
+}
+
+.navLinks ul li a.activeLink{
+  color: var(--navbar-active-color);
+}
+
+.socialIcons{
+  display: flex;
+  gap: 10px;
+  background-color: #3c3c3f;
+  padding: 10px;
+  border-radius: 30px;
+  width: 6.5em;
+}
+
+.socialIcons a{
+  font-size: 15px;
+  color: #979da8;
+}
+
+.content{
+  background-color: #f7f7f8;
+}
+
+main{
+  height: 150vh;
+  display: grid;
+  grid-template-columns: 30px 1fr 30px;
+}
+
+.shape {
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+      45deg,
+      #e3e5e8,
+      #dcdcdc 1px,
+      #f4f4f4 1px,
+      #f4f4f4 4px
+  );
+  border-left: 1.5px solid var(--border-color);
+  border-right: 1.5px solid var(--border-color);
+}
+
+
+footer{
+  height: fit-content;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--border-color-dark);
+}
+
+.footerLeft{
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid var(--border-color-dark);
+  border-left: 1px solid var(--border-color-dark);
+}
+
+.footerRight{
+  height: 100%;
+  width: 100%;
+  border-right: 1px solid var(--border-color-dark);
+  border-bottom: 1px solid var(--border-color-dark);
+}
+
+.footerContent{
+  width: 250px;
+  height: 100%;
+  margin: 20px 0 20px 70px;
+}
+
+.footerlogo{
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footerlogo img{
+  width: 100%;
+  height: 100%;
+}
+
+footer h3{
+  font-size: 14px;
+  font-weight: 400;
+  color: #656a72;
+  margin-bottom: 30px;
+}
+
+footer h4{
+  font-size: 14px;
+  font-weight: 400;
+  color: #656a72;
+}
+
+.footerRight {
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid var(--border-color-dark);
+  border-right: 1px solid var(--border-color-dark);
+  border-bottom: 1px solid var(--border-color-dark);
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  gap: 60px;
+}
+
+.footerRight .one,
+.footerRight .two,
+.footerRight .three {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footerlinkheading h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.footerlinks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footerlinks li {
+  margin: 0;
+}
+
+.footerlinks a {
+  color: #666;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.2s ease;
+  display: inline-block;
+}
+
+.footerlinks a:hover {
+  color: #1a1a1a;
+}
+
+.shapeFooter {
+  width: 100%;
+  height: 30px;
+  background: repeating-linear-gradient(
+      45deg,
+      #e3e5e8,
+      #dcdcdc 1px,
+      #f4f4f4 1px,
+      #f4f4f4 4px
+  );
+  border-left: 1.5px solid var(--border-color);
+  border-right: 1.5px solid var(--border-color);
+}
